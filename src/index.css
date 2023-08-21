@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #383f4d;
+  background-color: #fff;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+/* Header */
+
+header {
+  width: 100%;
+}
+
+.container {
+  max-width: 1182px;
+  /* background-color: green; */
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60px;
+  width: 100%;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 70px;
+}
+
+ul {
+  width: 320px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+a {
+  /* padding: 22px 1em; */
+  /* background-color: red; */
+  color: #383f4d;
+  text-decoration: none;
+  font-size:17px;
+}
+
+
+select {
+  width: 99px;
+  height: 30px;
+}
+
+/* .spacer {
+  flex: 1;
+} */
+
+/* Hero */
+
+.hero {
+  margin-top: 180px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+
+/* footer */
+.mt {
+  margin-top: 200px;
+  line-height: 21px;
+}
+
